@@ -1,0 +1,173 @@
+/*
+========================
+Header area start
+========================
+*/
+
+body {	
+    font-family: "arial";
+    font-size: 16px;
+    font-weight: 400;    
+	background: #fff;
+	color: #333333;	
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+::selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-webkit-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+::-moz-selection {
+    color: white; 
+    background: #ff7675;
+}
+
+
+.scrolltotop {
+    width: 40px;
+    height: 40px;
+    border-radius: 20px 20px 0 0;
+    background: rgba(0,0,0,.5);   
+    text-align: center;
+    padding-top: 8px;
+    font-size: 22px;
+    color: #ffffff;
+    position: fixed;
+    right: 5px;
+    bottom: 5px;
+    display: none;
+    transition: 0.2s all ease;
+    -webkit-transition: 0.2s all ease;
+    -moz-transition: 0.2s all ease;
+}
+
+.scrolltotop:hover {   
+    background: #000;
+    color: #fff;
+    box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -webkit-box-shadow: 0px 0px 5px rgba(0,0,0,.5);
+    -moz-box-shadow: 0px 0px 5px rgba(0,0,0,.5);   
+}
+
+/*header area start here */
+.header-area {
+    padding: 20px 0;
+    background: #eaeaea;
+}
+
+.header-area .images img {
+    display: inline-block;    
+    width: 150px;
+    height: auto;
+}
+
+
+/*product area start here*/
+.product-area {
+    padding: 50px 0 50px;
+    background: #ffffff;    
+}
+
+.inner-img img {
+    max-width: 100%;
+}
+
+.product-content {
+    color: #333333;
+}
+
+.product-content h2 {   
+    font-size: 33px;
+    margin-bottom: 15px;
+    font-weight: bold;
+}
+
+.product-content p {    
+    font-size: 18px;
+}
+
+
+/*contact area start here*/
+.contact-area {
+    background: #006294;
+}
+
+.form-area form {  
+    background: #006294;
+    padding: 70px 0px 70px;   
+    margin: auto;
+}
+
+.form-area h3 {
+    color: #ffffff;
+    font-size: 35px;
+    font-weight: 600;
+    margin: 0 0 40px;
+}
+
+.form-area form input {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 10px 15px;   
+}
+
+.form-area form input {
+    width: 100%;
+    display: block;
+    border: 1px solid #ddd;
+    color: #999;
+}
+
+.form-area form input[type="email"]  {
+    width: 100%;
+}
+
+.form-area form input[type="text"]  {
+    border: none;
+    outline: none;
+}
+
+.form-area form input[type="submit"] {
+    display: inline-block;
+    width: 40%;
+    background: #ED8B09;
+    color: #ffffff;
+    text-transform: uppercase;
+    border: none!important;
+    font-size: 18px;
+    font-weight: 600;
+    transition: .3s all ease;
+    outline: none!important;
+}
+
+.form-area form input[type="submit"]:hover {
+    opacity: .7;
+}
+
+/*copyright area start here*/
+.copyright-area {
+    text-align: center;
+    background: #eee;
+    color: #333333;
+    padding: 10px 0;
+}
+
+.copyright-area p {
+    margin: 0;
+    padding: 0;
+}
