@@ -1,0 +1,87 @@
+/*
+====================================
+Medium Screen - Others
+====================================
+*/
+@media screen and (min-width: 992px) and (max-width: 1200px) {
+}
+
+/*
+====================================
+Small Screen - Tablate
+====================================
+*/
+@media screen and (min-width: 768px) and (max-width: 991px) {
+
+    .product-content h2 {
+    	margin-top: 30px;
+    }
+
+    .inner-img {
+        width: 100% !important;
+        margin-top: 15px;
+    }
+
+    .inner-img img {
+        width: 100% !important;
+        height: 100%!important;
+    }
+}
+
+/*
+====================================
+Small Screen - Mobile
+====================================
+*/
+@media screen and (min-width: 576px) and (max-width: 767px) {
+
+    .header-area .images img {
+        display: block;    
+        width: 150px !important;
+        height: auto;
+        margin: auto;
+    }
+
+    .inner-img {
+        width: 100% !important;
+        margin-top: 15px;
+    }
+
+    .inner-img img {
+        width: 100% !important;
+        height: 100%!important;
+    }
+
+    .product-content h2 {
+        margin-top: 30px;
+    }
+
+}
+
+/*
+====================================
+Xtra Small Screen - Small Mobile
+====================================
+*/
+@media screen and (max-width: 576px) {
+
+    .header-area .images img {
+        display: block;    
+        width: 180px !important;
+        height: auto;
+        margin: auto;
+    }
+
+    .inner-img img {
+    	width: 100%;
+    	margin-top: 15px;
+    }
+
+    .product-content h2 {
+    	margin-top: 30px;
+    }
+
+    .product-content p {
+        font-size: 16px !important;
+    }
+}
